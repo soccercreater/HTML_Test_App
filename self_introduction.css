@@ -1,0 +1,67 @@
+/* 設定リセット */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+.page {
+  width: 1000px;
+  padding: 100px 100px;
+  margin: auto;
+}
+
+/* メインの設定 */
+.main_profile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*リンクの文字色  */
+a {
+  color: white;
+}
+/* カーソルが上に来た時に色を変える */
+a:hover {
+  color: orange;
+}
+
+/*自己紹介内容の設定  */
+body {
+  max-width: 1000px;
+  height: 1000px;
+  background-image: url(./sky.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+h3 {
+color: white;
+display: block;
+} 
+
+p {
+  color: white;
+}
+
+/* アイコンの設定 */
+img {
+  border-radius: 80%;
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+/* フッターの設定 */
+.footer {
+  max-width: 1000px;
+  height: 100px;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
